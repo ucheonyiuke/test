@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!This is a HTML 5-->
+<!--This is a HTML 5-->
 <html lang="en" dir="ltr">
     <!-- This is the head of my website -->
   <head>
@@ -8,41 +8,51 @@
     <meta name="author" content="Uche Onyiuke">
     <meta name="description" content="Basic HTML example">
     <meta name="keywords" content="HTML, JS, CSS, Basic example">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/mobile.css">
+    <meta name="viewport" content="initial-scale=1">
   </head>
   <!-- This is the body of my website -->
   <body>
     <!-- This is my Header -->
     <header>
-      <nav>
-        <ul>
+      <nav class="navigation">
+        <ul class="horizontalline">
           <li>   <a href="https://www.apple.com/">Apple</a>    </li>
           <li>   <a href="https://www.twitter.com/">Twitter</a>   </li>
           <li>   <a href="https://www.instagram.com/">Instagram</a>  </li>
+          <li> <a href="Class6-1/transitions.html">Class 6.1</a> </li>
+          <li> <a href="Class6-2/grid.html"> Class 6.2 </a> </li>
         </ul>
       </nav>
     </header>
 
-
     <section>
+    <!-- This is for sidebars      -->
+    <aside class="sidebar">
+            <h3>Sidebar</h3>
+            <ul>
+              <li>item 1</li>
+              <li>item 2</li>
+              <li>item 3</li>
+            </ul>
+            <ol>
+              <li>item 1</li>
+              <li>item 2</li>
+              <li>item 3</li>
+            </ol>
+    </aside>
+    </section>
 
-<!-- This is for sidebars      -->
-<aside class="">
-        <ul>
-          <li>item 1</li>
-          <li>item 2</li>
-          <li>item 3</li>
-        </ul>
-        <ol>
-          <li>item 1</li>
-          <li>item 2</li>
-          <li>item 3</li>
-        </ol>
-</aside>
+<div class="container">
+
 
 <!-- We use it for articles, magazines, posts, etc.  -->
-<article>
-        <h1>Title</h1>
-        <h2>Subtitle</h2>
+<section>
+<article id="dog">
+  <h1>YEEZY</h1>
+        <h2>The Life of Pablo</h2>
         <p>
           <!-- This is for best practice  -->
           <strong>I miss the old Kanye</strong>
@@ -65,7 +75,7 @@
         <img src="img/Kanye.jpg" alt="Kanye">
 </article>
 </section>
-
+</div>
 
 <section>
   <address>
