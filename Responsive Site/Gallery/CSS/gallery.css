@@ -1,0 +1,50 @@
+/* STYLE TO MY LAYOUT */
+h1
+{
+  font-size: 3em;
+  font-family: sans-serif;
+  color: lightgray;
+  text-align: center;
+}
+hr
+{
+width: 80%;
+}
+
+.basicGrid2
+{
+  width: 70%;
+  height: 40vh;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  /* The value % will be relative to the size of the parent element,
+   if it doesn't have any parent it will take the size of the screen */
+  display: grid;
+  grid-template-rows: 150px 30%;
+  /* 1 fr will be relative to the width size of your row, and the amounts of columns you have */
+  grid-template-columns:1fr 1fr 1fr;
+
+}
+
+
+/* This is how you get only the firs div instead of affecting all of them */
+.basicGrid2 div:first-child
+{
+background-color: pink;
+}
+/* the secon child div */
+.basicGrid2 div:nth-child(2)
+{
+  background-color: lightblue;
+}
+/* the third child div */
+.basicGrid2 div:nth-child(3)
+{
+  background-color: lightgreen;
+}
+/* Hope you get the idea by now.. */
+.basicGrid2 div:nth-child(4)
+{
+  background-color: lightgray;
+}

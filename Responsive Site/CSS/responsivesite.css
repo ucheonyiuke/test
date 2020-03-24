@@ -1,0 +1,46 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  color: rgb(249, 181, 198);
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2  {
+  color: rgb(249, 181, 198);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text {
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+.navigation {
+  display: table;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+.horizontalline {
+  padding-top: 20px;
+}
+.horizontalline li {
+display: inline;
+margin: 40px;
+padding: 20px 60px 20px 60px;
+background-color: pink;
+width: 10%;
+border-radius: 0%;
+}
+.horizontalline li a {
+  color: gray;
+  text-decoration: none;
+  font-family: 'Bebas Neue';
+  /* I could have said sans-serif */
+}
+.horizontalline li a:hover {
+  color: white;
+}
